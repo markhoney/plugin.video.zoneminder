@@ -1,0 +1,3 @@
+0.2.1
+- This is an updated version that fixes a stupid bug that allowed things to only work on windows.
+- Currently only no authentication or plain authentication will work on the ZoneMinder server, hashed mode may come in the future.

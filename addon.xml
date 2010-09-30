@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.zoneminder"
+       name="Zone Minder"
+       version="0.2.1"
+       provider-name="tim-">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+	  <provides>Video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>List and show Zone Minder cameras</summary>
+    <description>This plugin will enumerate all of the cameras on your ZM server and give you a list of them. When you click on one, the video for that camera will appear on the screen... simple as that. If you have any other features you think would be useful let me know and I'll try to add them.</description>
+  </extension>
+</addon>

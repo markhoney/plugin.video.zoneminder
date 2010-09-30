@@ -1,0 +1,11 @@
+<settings>
+	<setting id="ZM_URL" type="text" label="30000" default="192.168.1.111"/>
+	<setting id="reqauth" type="bool" label="30001" default="false"/> 
+	<setting id="username" type="text" label="30002" default="admin" enable="eq(-1,true)"/>
+	<setting id="password" type="text" label="30003" default="admin" enable="eq(-2,true)"/>
+	<setting id="bitrate" type="text" label="30004" default="2500000"/>
+	<setting id="fps" type="text" label="30005" default="25"/>
+
+</settings>
+
+

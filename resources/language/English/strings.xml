@@ -1,0 +1,8 @@
+<strings>
+    <string id="30000">ZoneMinder URL</string>
+    <string id="30001">Requires Authentication?</string>
+    <string id="30002">Username</string>
+    <string id="30003">Password</string>
+    <string id="30004">Bitrate</string>
+    <string id="30005">Frames Per Second</string>
+</strings>
