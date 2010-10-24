@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.zoneminder"
-       name="Zone Minder"
-       version="0.2.1"
-       provider-name="tim-">
+       version="1.1.0"
+       name="ZoneMinder"
+       provider-name="Mark Honeychurch (markhoney)">
   <requires>
     <import addon="xbmc.python" version="1.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="default.py">
-	  <provides>Video</provides>
-  </extension> 
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>List and show Zone Minder cameras</summary>
-    <description>This plugin will enumerate all of the cameras on your ZM server and give you a list of them. When you click on one, the video for that camera will appear on the screen... simple as that. If you have any other features you think would be useful let me know and I'll try to add them.</description>
+    <summary lang="en">View cameras on ZoneMinder Linux CCTV server</summary>
+    <description lang="en">This addon allows you to connect to a ZoneMinder server and view the output of any camera attached to the server. Plain and hashed authentication are supported.</description>
   </extension>
 </addon>

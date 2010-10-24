@@ -1,3 +1,10 @@
-0.2.1
-- This is an updated version that fixes a stupid bug that allowed things to only work on windows.
-- Currently only no authentication or plain authentication will work on the ZoneMinder server, hashed mode may come in the future.
+1.1.0
+- Added authentication. Both plain and hashed are available
+
+1.0.1
+- Added thumbnails by grabbing a single image from the camera
+- Added max FPS and bandwidth options
+
+1.0.0
+- Initial release
+- Connects to ZM server and allows viewing of all cameras
