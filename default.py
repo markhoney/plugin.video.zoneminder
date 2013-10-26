@@ -160,7 +160,7 @@ def listcameras():
     info["Title"] = name
     info["VideoResolution"] = width
     info["Videoaspect"] = calculateaspect(width, height)
-    info["FileName"] = "%snph-zms?monitor=%s&mode=mpeg&format=asf%s%s" % (cgiurl, id, qualityurl, videoauthurl)
+    info["FileName"] = "%snph-zms?monitor=%s&mode=mpeg&format=avi%s%s" % (cgiurl, id, qualityurl, videoauthurl)
     info["Thumb"] = "%snph-zms?monitor=%s&mode=single%s" % (cgiurl, id, videoauthurl)
     addlistitem(info, len(match), 0)
   else:
