@@ -1,3 +1,6 @@
+1.1.2
+- Frodo Compatible Version
+
 1.1.1
 - Added option to manually enter IP address for hashed authentication
 - Better quality icon from Freezy
